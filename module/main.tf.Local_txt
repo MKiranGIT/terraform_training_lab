@@ -1,0 +1,6 @@
+module "webserver" {
+  source = "./lab"
+#  instance_type = var.instance_type
+   instance_type = "t3.micro"
+  # Specify dependencies explicitly using depends_on if needed
+  }
